@@ -134,5 +134,5 @@ func main() {
 
 	var lenProxies, lenGoodProxies = len(proxies), len(goodProxies)
 	fmt.Println(Sprintf(Bold(Magenta("Proxies count: %d\tViews count: %d")), Cyan(lenProxies), Cyan(lenGoodProxies)))
-	fmt.Println(Sprintf(Bold(Magenta("Run time: %s")), Cyan(elapsed)))
+	fmt.Println(Sprintf(Bold(Magenta(" [!] By Trakos - RunTime :%s")), Cyan(elapsed)))
 }
