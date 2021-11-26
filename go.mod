@@ -1,4 +1,4 @@
-module github.com/batiscuff/tg_booster
+module github.com/mhdeiiking/tViews
 
 go 1.16
 
