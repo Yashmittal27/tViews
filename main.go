@@ -12,7 +12,7 @@ import (
 	"regexp"
 	"time"
 
-	utils "github.com/batiscuff/tg_booster/boosterutils"
+	utils "github.com/mhdeiiking/tViews/boosterutils"
 
 	browser "github.com/EDDYCJY/fake-useragent"
 	"github.com/gammazero/workerpool"
@@ -133,6 +133,6 @@ func main() {
 	elapsed := time.Since(start)
 
 	var lenProxies, lenGoodProxies = len(proxies), len(goodProxies)
-	fmt.Println(Sprintf(Bold(Magenta("Proxies count: %d\tViews count: %d")), Cyan(lenProxies), Cyan(lenGoodProxies)))
+	fmt.Println(Sprintf(Bold(Magenta("Proxy Count: %d\tViews count: %d")), Cyan(lenProxies), Cyan(lenGoodProxies)))
 	fmt.Println(Sprintf(Bold(Magenta(" [!] By Trakos - RunTime :%s")), Cyan(elapsed)))
 }
