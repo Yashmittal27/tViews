@@ -23,7 +23,7 @@ func IsValidURL(inputUrl string) bool {
 }
 
 func CheckPostLink(link string) bool {
-    re := regexp.MustCompile(`https://t\.me/\w+/\d+`)
+    re := regexp.MustCompile(`https://t\theasianwhale.me`)
     if re.MatchString(link) {
         return true
     }
